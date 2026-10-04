@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Documents/CSE_450/Register/computer/register_1bit.xst" -ofn "/home/ise/Documents/CSE_450/Register/computer/register_1bit.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI-Xilinx/computer/register_1bit.xst" -ofn "/home/ise/VLSI-Xilinx/computer/register_1bit.syr" 

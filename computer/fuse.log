@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VLSI-Xilinx/computer/alu_8bit_tb_isim_beh.exe -prj /home/ise/VLSI-Xilinx/computer/alu_8bit_tb_beh.prj work.alu_8bit_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/nand_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/not_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/xor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/half_adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/adder_4bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/xnor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/mux4.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/adder_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/zero_detect_8.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/mux2.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/alu_logic_unit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/alu_arith_unit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/alu_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI-Xilinx/computer/alu_8bit_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97788 KB
+Fuse CPU Usage: 810 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture behavioral of entity mux4 [mux4_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity adder_4bit [adder_4bit_default]
+Compiling architecture structural of entity adder_8bit [adder_8bit_default]
+Compiling architecture structural of entity xnor_gate [xnor_gate_default]
+Compiling architecture structural of entity alu_arith_unit [alu_arith_unit_default]
+Compiling architecture structural of entity alu_logic_unit [alu_logic_unit_default]
+Compiling architecture behavioral of entity mux2 [mux2_default]
+Compiling architecture structural of entity zero_detect_8 [zero_detect_8_default]
+Compiling architecture structural of entity alu_8bit [alu_8bit_default]
+Compiling architecture behavioral of entity alu_8bit_tb
+Time Resolution for simulation is 1ps.
+Compiled 36 VHDL Units
+Built simulation executable /home/ise/VLSI-Xilinx/computer/alu_8bit_tb_isim_beh.exe
+Fuse Memory Usage: 112480 KB
+Fuse CPU Usage: 930 ms
+GCC CPU Usage: 1160 ms
